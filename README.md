@@ -24,7 +24,6 @@ The process:
 5. Sends (ABP method) to The Things Network.
 
 TODO:
-Change from ABP to OTAA. ABP was quick, and im not yet familiar enough to get OTAA working when the ESP sleeps
-- need to store the join info to flash
-Also for the same reason, frame counter should be continuous (right now its always doing it for the first time ;))
-Tidy up!
+- Change from ABP to OTAA. ABP was quick, and im not yet familiar enough to get OTAA working when the ESP sleep; need to store the join info to flash
+- Also for the same reason, frame counter should be continuous (right now its always doing it for the first time ;))
+- Tidy up!
