@@ -15,7 +15,7 @@ Wakes up every 60 seconds and sends a LoRa Packet with:
   Battery Voltage
   Solar Voltage
 
-#The process is simple;
+##The process:
 
 1. Wakes up / Power on.
 2. Turn on GPS power ('gpsen' pin is connected to the 2n2222 transistor to provide power to the GPS module).
@@ -23,7 +23,7 @@ Wakes up every 60 seconds and sends a LoRa Packet with:
 4. Reads all sensors and makes packet.
 5. Sends (ABP method) to The Things Network.
 
-#TODO:
+##TODO:
 Change from ABP to OTAA. ABP was quick, and im not yet familiar enough to get OTAA working when the ESP sleeps
 - need to store the join info to flash
 Also for the same reason, frame counter should be continuous (right now its always doing it for the first time ;))
