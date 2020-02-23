@@ -1,6 +1,6 @@
 
-## TTN Floaty McFloatFace
-# 23-02-2020
+# TTN Floaty McFloatFace
+## 23-02-2020
 
 Arduino/ESP32/TheThingsNetwork based, GPS tracked mobile buoy for sea/air temperature and estury current tracking.
 
